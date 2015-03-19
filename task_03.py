@@ -10,4 +10,10 @@ def lexicographics(to_analyze):
     avg = 0
     for i in to_analyze:
         item += i
+        item.split('\n')
+    item = [item]
     print item
+ 
+if __name__ == '__main__':
+    print lexicographics('''Don't stop believing,\n Hold on to that feeling.''')
+
