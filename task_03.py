@@ -5,16 +5,20 @@
 def lexicographics(to_analyze):
     lines = ''
     line2  = ''
-    line_new = ''
-    lis_t= []
+    line3 = ''
+    totalperline = 0
+    total_lines = []
+    lista_t= []
     for char in to_analyze:
         lines += char
         line2 = lines.split('\n')
-        line_new = line2[0]
-        line_new.split()
-        lis_t = line_new.split()
-        for item in lis_t:
-            print item
+        line3 = line2[0]
+        line3.split()
+        lista_t = line3.split()
+        totalperline = len(lista_t)
+    total_lines.append(totalperline)
+    return total_lines
+
 if __name__ == '__main__':
     print lexicographics('''Don't stop believing,
     Hold on to that feeling.''')
