@@ -10,20 +10,3 @@ def bool_to_str(bval):
         bval = yes
     else: bval = no
     return bval
-
-if __name__ == '__main__':
-
-    """falses"""
-
-    print bool_to_str([])
-    print bool_to_str(())
-    print bool_to_str(False)
-    print bool_to_str('')
-
-    """thruths"""
-    
-    print bool_to_str('s')
-    print bool_to_str((1,))
-    print bool_to_str([1,2,3])
-    print bool_to_str(1)
-    
