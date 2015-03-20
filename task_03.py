@@ -16,4 +16,3 @@ def lexicographics(to_analyze):
  
 if __name__ == '__main__':
     print lexicographics('''Don't stop believing,\n Hold on to that feeling.''')
-
