@@ -16,12 +16,12 @@ def fibonacci(maxint):
     >>> import task_01
     >>> task_01.fibonacci(10)
     [0, 1, 1, 2, 3, 5, 8]
-    
+
     >>> import task_01
     >>> fibonacci(20)
     [0, 1, 1, 2, 3, 5, 8, 13]
     """
-    lastnum, curnum = 0,1
+    lastnum, curnum = 0, 1
     fib = [0]
     while curnum < maxint:
         fib.append(curnum)

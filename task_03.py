@@ -34,7 +34,6 @@ def lexicographics(to_analyze):
         numwords = len(sentence.split())
         if numwords > max_words:
             max_words = numwords
-            
         if numwords <= min_words:
             min_words = numwords
         total_words += numwords
