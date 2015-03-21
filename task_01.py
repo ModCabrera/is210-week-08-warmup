@@ -11,20 +11,19 @@ def fibonacci(maxint):
 
     Returns:
     fib (list of int): New list of sequential intergers.
-
+    
     Examples:
     >>> import task_01
     >>> task_01.fibonacci(10)
     [0, 1, 1, 2, 3, 5, 8]
-
+    
     >>> import task_01
     >>> fibonacci(20)
     [0, 1, 1, 2, 3, 5, 8, 13]
- 
     """
-    a,b = 0,1
+    lastnum,curnum = 0,1
     fib = [0]
-    while b < maxint:
-        fib.append(b)
-        a,b = b, a+b
+    while curnum < maxint:
+        fib.append(curnum)
+        lastnum,curnum = curnum, lastnum+curnum
     return fib

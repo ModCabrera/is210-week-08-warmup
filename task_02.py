@@ -8,11 +8,11 @@ def bool_to_str(bval):
 
     Args:
     bval (str, list, tup, int): Variable and evals truthy or falsy.
-    
+
     Returns:
     bval (str): bval returns 'yes' if true, else 'no' if false.
-        yes (str): String Equivalent of True.
-        no (str): String Equivalent of False.
+        truthy (str): String Equivalent of True.
+        falsy (str): String Equivalent of False.
 
     Examples:
     >>> import task_02
@@ -22,11 +22,11 @@ def bool_to_str(bval):
     >>> import task_02
     >>> task 02.bool_to_str('')
     'No'
- 
     """
-    yes = 'Yes'
-    no = 'No'
+    truthy = 'Yes'
+    falsy = 'No'
     if bval and True:
-        bval = yes
-    else: bval = no
+        bval = truthy
+    else:
+        bval = falsy
     return bval
