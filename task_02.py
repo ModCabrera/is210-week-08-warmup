@@ -11,8 +11,6 @@ def bool_to_str(bval):
 
     Returns:
     bval (str): bval returns 'yes' if true, else 'no' if false.
-        truthy (str): String Equivalent of True.
-        falsy (str): String Equivalent of False.
 
     Examples:
     >>> import task_02
